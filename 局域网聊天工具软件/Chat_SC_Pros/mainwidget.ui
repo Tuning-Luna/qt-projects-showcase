@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWidget</class>
+ <widget class="QWidget" name="MainWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>772</width>
+    <height>489</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>局域网聊天工具软件--Version1.9</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="images.qrc">
+    <normaloff>:/new/prefix1/images/logo.ico</normaloff>:/new/prefix1/images/logo.ico</iconset>
+  </property>
+  <property name="toolTip">
+   <string>加粗</string>
+  </property>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>501</width>
+     <height>251</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QFontComboBox" name="fontComboBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>301</y>
+     <width>151</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Bold">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>301</y>
+     <width>31</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>加粗</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/new/prefix1/images/bold.png</normaloff>:/new/prefix1/images/bold.png</iconset>
+   </property>
+   <property name="autoDefault">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Italic">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>301</y>
+     <width>31</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>倾斜</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/new/prefix1/images/italic.png</normaloff>:/new/prefix1/images/italic.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Underline">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>301</y>
+     <width>31</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>下划线</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/new/prefix1/images/under.png</normaloff>:/new/prefix1/images/under.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Color">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>301</y>
+     <width>31</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>更改字体颜色</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/new/prefix1/images/color.png</normaloff>:/new/prefix1/images/color.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Sendfile">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>301</y>
+     <width>31</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>文件传输</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/new/prefix1/images/send.png</normaloff>:/new/prefix1/images/send.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_SaveFile">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>301</y>
+     <width>31</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>保存聊天记录</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/new/prefix1/images/save.png</normaloff>:/new/prefix1/images/save.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_ClearMsg">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>301</y>
+     <width>31</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>清除聊天记录</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/new/prefix1/images/clear.png</normaloff>:/new/prefix1/images/clear.png</iconset>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_Msg">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>331</y>
+     <width>501</width>
+     <height>101</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>20</y>
+     <width>201</width>
+     <height>451</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_SendMsg">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>441</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>发送消息</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_ExitSys">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>441</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>退出系统</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>290</y>
+     <width>521</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QComboBox" name="comboBox_Size">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>10</y>
+      <width>61</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="currentText">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>521</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_3">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>10</y>
+     <width>221</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+  </widget>
+  <zorder>groupBox</zorder>
+  <zorder>groupBox_2</zorder>
+  <zorder>groupBox_3</zorder>
+  <zorder>textBrowser</zorder>
+  <zorder>fontComboBox</zorder>
+  <zorder>pushButton_Bold</zorder>
+  <zorder>pushButton_Italic</zorder>
+  <zorder>pushButton_Underline</zorder>
+  <zorder>pushButton_Color</zorder>
+  <zorder>pushButton_Sendfile</zorder>
+  <zorder>pushButton_SaveFile</zorder>
+  <zorder>pushButton_ClearMsg</zorder>
+  <zorder>textEdit_Msg</zorder>
+  <zorder>tableWidget</zorder>
+  <zorder>pushButton_SendMsg</zorder>
+  <zorder>pushButton_ExitSys</zorder>
+ </widget>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>
