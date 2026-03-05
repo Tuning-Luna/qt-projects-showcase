@@ -1,0 +1,43 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>images/testjpg.jpg</file>
+        <file>images/weather.jpg</file>
+        <file>images/大风.png</file>
+        <file>images/风.png</file>
+        <file>images/飓风.png</file>
+        <file>images/冷.png</file>
+        <file>images/龙卷风.png</file>
+        <file>images/热.png</file>
+        <file>images/日间天气-暴雪.png</file>
+        <file>images/日间天气-暴雨.png</file>
+        <file>images/日间天气-大暴雨.png</file>
+        <file>images/日间天气-大雪.png</file>
+        <file>images/日间天气-大雨.png</file>
+        <file>images/日间天气-冻雨.png</file>
+        <file>images/日间天气-多云.png</file>
+        <file>images/日间天气-浮尘.png</file>
+        <file>images/日间天气-雷阵雨.png</file>
+        <file>images/日间天气-雷阵雨夹冰雹.png</file>
+        <file>images/日间天气-强沙尘暴.png</file>
+        <file>images/日间天气-晴.png</file>
+        <file>images/日间天气-沙尘暴.png</file>
+        <file>images/日间天气-特大暴雨.png</file>
+        <file>images/日间天气-雾.png</file>
+        <file>images/日间天气-小雪.png</file>
+        <file>images/日间天气-小雨.png</file>
+        <file>images/日间天气-扬沙.png</file>
+        <file>images/日间天气-阴.png</file>
+        <file>images/日间天气-雨夹雪.png</file>
+        <file>images/日间天气-阵雪.png</file>
+        <file>images/日间天气-阵雨.png</file>
+        <file>images/日间天气-中雪.png</file>
+        <file>images/日间天气-中雨.png</file>
+        <file>images/台风 .png</file>
+        <file>images/天气背景.jpeg</file>
+        <file>images/晚间天气-多云.png</file>
+        <file>images/晚间天气-晴.png</file>
+        <file>images/晚间天气-阵雪.png</file>
+        <file>images/晚间天气-阵雨.png</file>
+        <file>images/雾霾.png</file>
+    </qresource>
+</RCC>
