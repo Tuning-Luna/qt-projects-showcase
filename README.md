@@ -36,7 +36,7 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/qt-projects-showcase.git
+   git clone https://github.com/Tuning-Luna/qt-projects-showcase
    cd qt-projects-showcase
    ```
 
